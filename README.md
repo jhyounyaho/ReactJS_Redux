@@ -28,13 +28,15 @@ src/modules // redux module
 ## 리덕스 모듈                   
 src/modules/counter.js                   
 - number, diff 관리                      
-- action type : SET_DIFF, INCREASE, DECREASE                   
+- action type : SET_DIFF, INCREASE, DECREASE         
+                   
 src/modules/todos.js                   
 - [] 할일 목록 객체가 들어갈 빈배열                   
 - action type: ADD_TODO, TOGGLE_TODO                    
+                   
 src/modules/index.js                   
 - root Reducer                     
-                   
+                                                         
 ## 최적화
 
 React.memo

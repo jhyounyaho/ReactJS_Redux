@@ -35,4 +35,6 @@ shallowEqual // 컨테이너 컴포넌트가 필요한 상황에서만 리렌더
 counter - 입력받은 숫자로 +, - 클릭시 결과 노출
 todos - 할 일 입력시 하단에 할 일 목록 노출
 
-## 결과 화면
+## 결과 화면       
+![redux](https://user-images.githubusercontent.com/42309919/98781606-f8bffe80-2439-11eb-8c18-180a65dc8469.PNG)              
+               

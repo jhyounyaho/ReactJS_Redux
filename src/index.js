@@ -4,10 +4,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Provider } from 'react-redux'; // react project에서 redux 적용 할때 사용하는 library
 import { createStore } from 'redux';
-import rootReducer from './modules'
+import rootReducer from './modules';
+import { composeWithDevTools } from 'redux-devtools-extension';
 
 // 스토어 생성 
-const store = createStore(rootReducer);
+const store = createStore(rootReducer, composeWithDevTools());
 
 ReactDOM.render(
   <Provider store={store}>

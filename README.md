@@ -21,10 +21,20 @@ https://github.com/erikras/ducks-modular-redux
 
 ## 디렉토리
 
-src/components // 프레젠테이셔널 컴포넌트
-src/containers // 컨테이너 컴포넌트
-src/modules // redux module
-
+src/components // 프레젠테이셔널 컴포넌트      
+src/containers // 컨테이너 컴포넌트              
+src/modules // redux module               
+                   
+## 리덕스 모듈                   
+src/modules/counter.js                   
+- number, diff 관리                      
+- action type : SET_DIFF, INCREASE, DECREASE                   
+src/modules/todos.js                   
+- [] 할일 목록 객체가 들어갈 빈배열                   
+- action type: ADD_TODO, TOGGLE_TODO                    
+src/modules/index.js                   
+- root Reducer                     
+                   
 ## 최적화
 
 React.memo
@@ -36,5 +46,5 @@ counter - 입력받은 숫자로 +, - 클릭시 결과 노출
 todos - 할 일 입력시 하단에 할 일 목록 노출
 
 ## 결과 화면       
-![redux](https://user-images.githubusercontent.com/42309919/98781606-f8bffe80-2439-11eb-8c18-180a65dc8469.PNG)              
+![redux2](https://user-images.githubusercontent.com/42309919/98781926-7c79eb00-243a-11eb-98fa-d50cc55609c4.PNG)       
                

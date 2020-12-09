@@ -4,7 +4,7 @@
 
 ## 설치 라이브러리
 
-yarn add redux
+yarn add redux  
 yarn add react-redux
 yarn add redux-devtools-extension
 
